@@ -1,1 +1,1 @@
-upload-labs-docker
+sqlsec/ggctf-upload
