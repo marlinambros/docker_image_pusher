@@ -6,10 +6,10 @@ on:
     branches: [ main ]
 
 env:
-  ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
-  ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
-  ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
-  ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
+  ALIYUN_ADDRESS: "${{ secrets.ALIYUN_ADDRESS }}"
+  ALIYUN_SPACE: "${{ secrets.ALIYUN_SPACE }}"
+  ALIYUN_USER: "${{ secrets.ALIYUN_USER }}"
+  ALIYUN_PASSWD: "${{ secrets.ALIYUN_PASSWD }}"
 
 jobs:
   build:
