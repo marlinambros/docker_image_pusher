@@ -1,1 +1,1 @@
-sqlsec/ggctf-upload
+sqlsec/ggctf-upload:v2
